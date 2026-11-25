@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connexion LocaMobile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/courriel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse courriel"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/motDePasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/boutonConnexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se connecter" />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
